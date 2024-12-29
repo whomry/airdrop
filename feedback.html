@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulir Umpan Balik</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <style>
+    body {
+      font-family: Arial;
+      background-color: #f7f7f7;
+    }
+    
+    .kontainer {
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    label {
+      margin-bottom: 10px;
+    }
+    
+    input, textarea {
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+    }
+    
+    button[type="submit"] {
+      background-color: #337ab7;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    button[type="submit"]:hover {
+      background-color: #23527c;
+    }
+  </style>
+  <div class="kontainer">
+    <h1>Formulir Umpan Balik</h1>
+    <form action="mailto:example@email.com" method="post" enctype="text/plain">
+      <label>Nama:</label>
+      <input type="text" name="nama" required>
+
+      <label>Email:</label>
+      <input type="email" name="email" required>
+
+      <label>Pesan:</label>
+      <textarea name="pesan" required></textarea>
+
+      <button type="submit">Kirim</button>
+    </form>
+  </div>
+</body>
+</html>
+
