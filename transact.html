@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transaction History</title>
+</head>
+<body>
+  <style>
+    header {
+      background-color: #6c5ce7;
+      color: #fff;
+      padding: 10px;
+      width: 87%;
+      margin-left: 4%;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border: none;
+      border-radius: 10px;
+    }
+    
+    header h1 {
+      text-align: center;
+      font-family: Arial;
+      text-shadow: 2px 2px 3px black;
+      margin-block: 10px;
+    }
+    
+    .my_table table {
+      margin-top: 20px;
+      margin-left: 4%;
+      background-color: #f2f2f2;
+      border-radius: 10px;
+      padding: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-collapse: collapse;
+      width: 90%;
+    }
+    
+    .my_table th {
+      background-color: #6c5ce7;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 10px;
+    }
+    
+    .my_table td {
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+    
+    }
+    footer {
+      background-color: #6c5ce7;
+      color: #fff;
+      padding: 5px;
+      text-align: center;
+      clear: both;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    button {
+      background-color: #6c5ce7;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+    
+    button:hover {
+      background-color: #7547ea;
+    }
+  </style>
+  <header>
+    <h1>History Transaksi</h1>
+  </header>
+  <section class="my_table">
+    <table border="0" cellpading="5" cellspacing="5">
+      <thead>
+        <tr>
+          <th>Deposit</th>
+          <th>Pembelian</th>
+          <th>Tanggal</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Rp 100.000</td>
+          <td>Rp 12.000</td>
+          <td>12-09-2024</td>
+        </tr>
+        <tr>
+          <td colspan="3">Tidak ada data lainnya.</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <a href="index.html"><button>Back</button></a>
+</body>
+<footer>&copy; Copyright by Hamdan @2024</footer>
+</html>

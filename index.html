@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top-Up</title>
+</head>
+<body>
+  <style>
+    .wallet {
+      margin-top: 10px;
+      background-color: #fff;
+      padding: 80px;
+      border: 1px solid #ddd;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      
+    }
+        
+    .wallet ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+        
+    .wallet li {
+      margin-bottom: 20px;
+      padding: 20px;
+      border-bottom: 1px solid #ddd;
+    }
+        
+    .wallet img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin-left: 20px;
+    }
+        
+    .wallet h2 {
+      font-weight: bold;
+      font-size: 18px;
+      margin-top: 10px;
+      color: #6c5ce7;
+      text-align: center;
+    }
+        
+    .wallet p {
+      font-size: 14px;
+      color: #666;
+      text-align: center;
+    }
+    
+    .no_underline {
+      text-decoration: none;
+    }
+        
+    .wallet button {
+      background-color: #6c5ce7;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-left: 10px;
+    }
+        
+    .wallet button:hover {
+      background-color: #7547ea;
+    }
+    
+    .wallet h1 {
+      text-align: center;
+      text-shadow: 2px 2px 3px #6c5ce7;
+    }
+
+    .head marquee {
+      font-family: Arial;
+      text-shadow: 2px 2px 3px #6c5ce7;
+      margin-bottom: 10px;
+      background-color: #00DDFF;
+      padding: 5px;
+      border: none;
+      border-radius: 2px;
+    }
+    
+    .head {
+      color: black;
+    }
+    
+    .head img {
+      object-fit: cover;
+      border-radius: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 50px;
+      height: 50px;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+    }
+    
+    header {
+      background-color: #6c5ce7;
+      color: #fff;
+      padding: 10px;
+      width: 87%;
+      margin-left: 4%;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border: none;
+      border-radius: 10px;
+    }
+    
+    header nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    header nav ul li {
+      margin-right: 20px;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+    
+    .produk {
+      background-color: #fff;
+      padding: 80px;
+      border: 1px solid #ddd;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+    
+    .produk ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .produk h1 {
+      text-align: center;
+      font-family: Arial;
+      text-shadow: 2px 2px 3px #6c5ce7;
+    }
+    
+    .produk li {
+      margin-bottom: 20px;
+      padding: 50px;
+      border-bottom: 1px solid #ddd;
+    }
+    
+    .produk img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .produk h2 {
+      font-weight: bold;
+      font-size: 18px;
+      margin-top: 10px;
+      color: #6c5ce7;
+      text-align: center;
+    }
+    
+    .produk p {
+      font-size: 14px;
+      color: #666;
+      text-align: center;
+    }
+    
+    .logo img {
+        width: 200px;
+        height: 150px;
+    }
+    
+    button {
+      background-color: #6c5ce7;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-left: 20px;
+    }
+    
+    button:hover {
+      background-color: #7547ea;
+    }
+    
+    footer {
+      background-color: #6c5ce7;
+      color: #fff;
+      padding: 3px;
+      text-align: center;
+      clear: both;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+  <br>
+  <header>
+    <section class="head">
+      <nav>
+        <ul>
+          <li><a href="sosmed.html"><img src="3.jpg" alt="logo"/></a></li>
+          <li><a href="#produk"><img src="mp.png" alt="mp"> </a></li>
+          <li><a href="transact.html"><img src="trans.png" alt="trans"></a></li>
+          <li><a href="#wallet"><img src="wall.png" alt="wall"></a> </li>
+        </ul>
+      </nav>
+    </section>
+  </header>
+  <main>
+    <section class="head">
+      <marquee><b>MAU TOP-UP MURAH? BANYAK DISKON? CUSS TOP-UP AJA DI <span style="color : red;">BLAST SHOP</span>. BLAST SHOP MENYEDIAKAN BERBAGAI KEBUTUHAN GAME, MULAI DARI DIAMOND ATAU BAHKAN WDP. CUSS LANGSUNG ORDER YAA</b></marquee>
+     </section>
+    <section class="produk" id="produk">
+        <section class="logo">
+          <img src="logo.jpg" alt="logo">
+        </section>
+      <h1><b>Welcome On <span style="color : red;">Blast Shop</span></b></h1>
+      <ul><li></li></ul>
+      <ul>
+        <li>
+          <img src="wdp.png" alt="Produk 1">
+          <h2>Weekly Diamond Pass</h2>
+          <p>Rp 10.000</p>
+          <button>Beli</button>
+        </li>
+        <li>
+          <img src="twp.png" alt="Produk 2">
+          <h2>Twillight Pass</h2>
+          <p>Rp 20.000</p>
+          <button>Beli</button>
+        </li>
+        <li>
+          <img src="dm_5.png" alt="prod">
+          <h2>5 Diamond</h2>
+          <p>Rp 1.500</p>
+          <button>Beli</button>
+        </li>
+        <li>
+          <img src="dm229.png" alt="prod">
+          <h2>229 Diamond</h2>
+          <p>Rp 1.500</p>
+          <button>Beli</button>
+        </li>
+        <li>
+          <img src="dm240.png" alt="prod">
+          <h2>240 Diamond</h2>
+          <p>Rp 1.500</p>
+          <button>Beli</button>
+        </li>
+        <li>
+          <img src="dm351.png" alt="prod">
+          <h2>381 Diamond</h2>
+          <p>Rp 1.500</p>
+          <button>Beli</button>
+        </li>
+        <li>
+          <img src="dm405.png" alt="prod">
+          <h2>408 Diamond</h2>
+          <p>Rp 1.500</p>
+          <button>Beli</button>
+        </li>
+        <li>
+          <img src="dm543.png" alt="prod">
+          <h2>568 Diamond</h2>
+          <p>Rp 1.500</p>
+          <button>Beli</button>
+        </li>
+        <li>
+          <img src="dm601.png" alt="prod">
+          <h2>601 Diamond</h2>
+          <p>Rp 1.500</p>
+          <button>Beli</button>
+        </li>
+        <li>
+          <img src="dm750.png" alt="prod">
+          <h2>750 Diamond</h2>
+          <p>Rp 1.500</p>
+          <button>Beli</button>
+        </li>
+        <li>
+          <img src="dm875.png" alt="prod">
+          <h2>875 Diamond</h2>
+          <p>Rp 1.500</p>
+          <button>Beli</button>
+        </li>
+        <li>
+          <img src="dm965.png" alt="prod">
+          <h2>965 Diamond</h2>
+          <p>Rp 1.500</p>
+          <button>Beli</button>
+        </li>
+        <li>
+          <img src="dm122.png" alt="prod">
+          <h2>1220 Diamond</h2>
+          <p>Rp 1.500</p>
+          <button>Beli</button>
+        </li>
+      </ul>
+    </section>
+    <section class="wallet" id="wallet">
+      <h1>Wallet Anda</h1>
+      <ul>
+        <li>
+          <img src="wall.png" alt="Wallet">
+          <h2>Saldo Anda</h2>
+          <p>Rp 120.000</p>
+          <button>Tambah Saldo</button>
+        </li>
+        <li>
+          <a href="transact.html"><img src="trans.png" alt="Riwayat"></a>
+          <h2>Riwayat Transaksi</h2>
+          <a href="transact.html" class="no_underline"><p>Lihat Riwayat</p></a>
+        </li>
+        <li>
+          <img src="sett.png" alt="Pengaturan">
+          <h2>Pengaturan Wallet</h2>
+          <p>Atur Wallet Anda</p>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; Copyright by Hamdan @2024</p>
+  </footer>
+</body>
+</html>
+
